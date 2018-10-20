@@ -4,9 +4,9 @@
 }
 
 body{
-	background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467);
+	background: url(https://images.unsplash.com/photo-1516371535707-512a1e83bb9a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63b43531bb8a96aecd442b3abc435694&auto=format&fit=crop&w=500&q=60);
 	background-size: cover;
-	background-position: center;
+	background-position: center 55%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: white;
@@ -74,6 +74,38 @@ hr{
 	background-color: green;
 }
 
+.navbar-light .navbar-brand {
+    color: rgba(244, 244, 244, 0.75);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(22, 21, 21);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(211, 211, 211);
+}
+
+.bg-light {
+    background: #090808 !important;
+}
+
+.btn-light {
+   color: white;
+    background-color: #087789;
+
+}
+
+h1{
+   color: #f7feffb8;
+
+}
+
+
+.navbar-toggler {
+   
+    background-color: #faffff;
+   
+}
 
 @media(min-width: 400px){
 	h1{	
